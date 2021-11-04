@@ -27,14 +27,6 @@ body {
   list-style: none;
 }
 
-.link {
-  text-decoration: none;
-  color: var(--title-text-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-}
-
 /* logo */
 
 .title {
@@ -48,14 +40,27 @@ body {
   font-family: raleway;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 
 /* nav */
 
-.link:hover,
-.link:focus {
+.site-nav .link {
+  text-decoration: none;
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
   color: var(--accent-color);
   text-decoration: none;
+}
+
+.site-nav .link-current {
+  color: var(--accent-color);
 }
 
 .contact-link {
@@ -181,13 +186,20 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 
-.contact-link {
-  color: var(--secondary-text-color);
+.foot-contact-link {
+  color: rgba(255, 255, 255, 0.6);
 
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.74;
+  text-decoration: none;
+}
+
+.foot-contact-link:hover {
+  color: var(--accent-color);
   text-decoration: none;
 }
 
