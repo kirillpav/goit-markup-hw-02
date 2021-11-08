@@ -27,7 +27,7 @@ body {
   list-style: none;
 }
 
-.site-nav-link .current {
+.site-nav-link.current {
   color: var(--accent-color);
 }
 
